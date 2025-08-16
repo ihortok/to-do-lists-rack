@@ -5,6 +5,8 @@ GEM
     puma (6.6.1)
       nio4r (~> 2.0)
     rack (3.2.0)
+    rackup (2.2.1)
+      rack (>= 3)
     rake (13.3.0)
     sqlite3 (2.7.3-x86_64-linux-gnu)
 
@@ -14,6 +16,7 @@ PLATFORMS
 DEPENDENCIES
   puma (~> 6.6)
   rack (~> 3.2)
+  rackup (~> 2.2)
   rake (~> 13.3)
   sqlite3 (~> 2.7)
 

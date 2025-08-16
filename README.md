@@ -30,6 +30,19 @@ rackup
 ```
 The app will be available at [http://localhost:9292](http://localhost:9292).
 
+### Running with Docker
+You can run the app in a Docker container:
+
+1. Build the image:
+   ```zsh
+   docker build -t to-do-lists-rack .
+   ```
+2. Run the container:
+   ```zsh
+   docker run -p 9292:9292 to-do-lists-rack
+   ```
+The app will be available at [http://localhost:9292](http://localhost:9292).
+
 ## Project Structure
 - `app.rb` - Main application logic
 - `config.ru` - Rack configuration
